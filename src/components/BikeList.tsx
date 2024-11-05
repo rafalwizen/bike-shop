@@ -1,4 +1,5 @@
 import React from 'react'
+import { useCart } from '../context/CartContext'
 
 interface Bike {
     id: number;
@@ -45,6 +46,8 @@ const bikes: Bike[] = [
 ]
 
 const BikeList: React.FC = () => {
+    const { addToCart } = useCart()
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {bikes.map((bike) => (
@@ -56,7 +59,10 @@ const BikeList: React.FC = () => {
                         <p className="text-gray-700 mb-4 flex-grow">{bike.description}</p>
                         <div className="flex justify-between items-center">
                             <span className="text-lg font-bold text-blue-600">${bike.price}</span>
-                            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                            <button
+                                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
+                                onClick={() => addToCart(bike)}
+                            >
                                 Add to Cart
                             </button>
                         </div>
