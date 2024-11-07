@@ -1,18 +1,29 @@
-import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import BikeList from './components/BikeList'
+import About from './components/About'
 import { CartProvider } from './context/CartContext'
 
 function App() {
     return (
         <CartProvider>
-            <div className="min-h-screen bg-gray-100">
-                <Navbar />
-                <main className="container mx-auto px-4 py-8">
-                    <h1 className="text-3xl font-bold mb-6 text-center">Welcome to Our Bike Shop</h1>
-                    <BikeList />
-                </main>
-            </div>
+            <Router>
+                <div className="min-h-screen bg-gray-100">
+                    <Navbar />
+                    <main className="container mx-auto px-4 py-8">
+                        <Routes>
+                            <Route path="/" element={
+                                <>
+                                    <h1 className="text-3xl font-bold mb-6 text-center">Welcome to Our Bike Shop</h1>
+                                    <BikeList />
+                                </>
+                            } />
+                            <Route path="/bikes" element={<BikeList />} />
+                            <Route path="/about" element={<About />} />
+                        </Routes>
+                    </main>
+                </div>
+            </Router>
         </CartProvider>
     )
 }

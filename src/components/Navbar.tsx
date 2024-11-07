@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'lucide-react'
 import { useCart } from '../context/CartContext'
 import CartMenu from './CartMenu'
@@ -12,12 +13,12 @@ const Navbar: React.FC = () => {
     return (
         <nav className="bg-blue-600 text-white shadow-md relative">
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold">Bike Shop</a>
+                <Link to="/" className="text-2xl font-bold">Bike Shop</Link>
                 <ul className="flex space-x-4">
-                    <li><a href="/" className="hover:text-blue-200">Home</a></li>
-                    <li><a href="/bikes" className="hover:text-blue-200">Bikes</a></li>
-                    <li><a href="/about" className="hover:text-blue-200">About</a></li>
-                    <li><a href="/contact" className="hover:text-blue-200">Contact</a></li>
+                    <li><Link to="/" className="hover:text-blue-200">Home</Link></li>
+                    <li><Link to="/bikes" className="hover:text-blue-200">Bikes</Link></li>
+                    <li><Link to="/about" className="hover:text-blue-200">About</Link></li>
+                    <li><Link to="/contact" className="hover:text-blue-200">Contact</Link></li>
                 </ul>
                 <button
                     className="p-2 rounded-full bg-white text-blue-600 hover:bg-blue-100 relative"
