@@ -25,7 +25,7 @@ const About: React.FC = () => {
                     <img
                         src="/images/headquarters.jpg"
                         alt="Our Bike Shop Headquarters"
-                        className="w-full h-auto rounded-lg shadow-md"
+                        className="w-full max-h-[600px] object-cover object-center rounded-lg shadow-md"
                     />
                     <p className="text-sm text-gray-600 mt-2 text-center">Our Bike Shop Headquarters in Tarnowskie Góry</p>
                 </div>
