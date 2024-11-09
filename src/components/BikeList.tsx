@@ -55,14 +55,14 @@ const BikeList: React.FC = () => {
                     <img src={bike.image} alt={bike.name} className="w-full aspect-square object-cover" />
                     <div className="p-6 flex-grow flex flex-col justify-between">
                         <div>
-                            <h2 className="text-xl font-semibold mb-2">{bike.name}</h2>
+                            <h2 className="text-xl font-semibold mb-2 text-primary">{bike.name}</h2>
                             <p className="text-sm text-gray-600 mb-2">{bike.type}</p>
                             <p className="text-gray-700 mb-4">{bike.description}</p>
                         </div>
                         <div className="flex justify-between items-center">
-                            <span className="text-lg font-bold text-blue-600">${bike.price}</span>
+                            <span className="text-lg font-bold text-secondary">${bike.price}</span>
                             <button
-                                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
+                                className="bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-primary-600 transition-colors"
                                 onClick={() => addToCart(bike)}
                             >
                                 Add to Cart
