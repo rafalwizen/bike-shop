@@ -2,89 +2,111 @@
   {
     "id": 1,
     "name": "Mountain Explorer",
-    "type": "Mountain Bike",
+    "type_en": "Mountain Bike",
+    "type_pl": "Rower Górski",
     "price": 799,
     "image": "/images/mountain-bike.jpg",
-    "description": "Perfect for rough terrains and adventurous trails."
+    "description_en": "Perfect for rough terrains and adventurous trails.",
+    "description_pl": "Idealny do trudnych terenów i przygodowych szlaków."
   },
   {
     "id": 2,
     "name": "Road Master",
-    "type": "Road Bike",
+    "type_en": "Road Bike",
+    "type_pl": "Rower Szosowy",
     "price": 1299,
     "image": "/images/road-bike.jpg",
-    "description": "Sleek and fast, ideal for long distance rides on paved roads."
+    "description_en": "Sleek and fast, ideal for long distance rides on paved roads.",
+    "description_pl": "Smukły i szybki, idealny do długich przejażdżek po utwardzonych drogach."
   },
   {
     "id": 3,
     "name": "City Cruiser",
-    "type": "City Bike",
+    "type_en": "City Bike",
+    "type_pl": "Rower Miejski",
     "price": 599,
     "image": "/images/city-bike.jpg",
-    "description": "Comfortable and stylish for your daily urban commute."
+    "description_en": "Comfortable and stylish for your daily urban commute.",
+    "description_pl": "Wygodny i stylowy na codzienne dojazdy po mieście."
   },
   {
     "id": 4,
     "name": "E-Rider Pro",
-    "type": "Electric Bike",
+    "type_en": "Electric Bike",
+    "type_pl": "Rower Elektryczny",
     "price": 1999,
     "image": "/images/electric-bike.jpg",
-    "description": "Powerful electric assistance for effortless riding."
+    "description_en": "Powerful electric assistance for effortless riding.",
+    "description_pl": "Mocna pomoc elektryczna dla łatwiejszej jazdy."
   },
   {
     "id": 5,
     "name": "Trail Blazer",
-    "type": "Mountain Bike",
+    "type_en": "Mountain Bike",
+    "type_pl": "Rower Górski",
     "price": 899,
     "image": "/images/trail-blazer.jpg",
-    "description": "Conquer any trail with this robust and agile mountain bike."
+    "description_en": "Conquer any trail with this robust and agile mountain bike.",
+    "description_pl": "Pokonaj każdy szlak z tym solidnym i zwinnym rowerem górskim."
   },
   {
     "id": 6,
     "name": "Eco Rider",
-    "type": "Electric Bike",
+    "type_en": "Electric Bike",
+    "type_pl": "Rower Elektryczny",
     "price": 1799,
     "image": "/images/eco-rider.jpg",
-    "description": "Environmentally friendly with powerful electric support."
+    "description_en": "Environmentally friendly with powerful electric support.",
+    "description_pl": "Ekologiczny z mocnym wsparciem elektrycznym."
   },
   {
     "id": 7,
     "name": "Downhill Dominator",
-    "type": "Mountain Bike",
+    "type_en": "Mountain Bike",
+    "type_pl": "Rower Górski",
     "price": 1299,
     "image": "/images/downhill-dominator.jpg",
-    "description": "Designed for extreme downhill performance and control."
+    "description_en": "Designed for extreme downhill performance and control.",
+    "description_pl": "Zaprojektowany do ekstremalnej jazdy w dół i pełnej kontroli."
   },
   {
     "id": 8,
     "name": "Folding Commuter",
-    "type": "Folding Bike",
+    "type_en": "Folding Bike",
+    "type_pl": "Rower Składany",
     "price": 799,
     "image": "/images/folding-commuter.jpg",
-    "description": "Compact and convenient for mixed-mode commuting."
+    "description_en": "Compact and convenient for mixed-mode commuting.",
+    "description_pl": "Kompaktowy i wygodny do mieszanych dojazdów."
   },
   {
     "id": 9,
     "name": "Gravel Grinder",
-    "type": "Gravel Bike",
+    "type_en": "Gravel Bike",
+    "type_pl": "Rower Gravelowy",
     "price": 1099,
     "image": "/images/gravel-grinder.jpg",
-    "description": "Versatile bike for both road and light off-road adventures."
+    "description_en": "Versatile bike for both road and light off-road adventures.",
+    "description_pl": "Wszechstronny rower do jazdy po drogach i lekkich szlakach."
   },
   {
     "id": 10,
     "name": "Touring Elite",
-    "type": "Touring Bike",
+    "type_en": "Touring Bike",
+    "type_pl": "Rower Turystyczny",
     "price": 1399,
     "image": "/images/touring-elite.jpg",
-    "description": "Built for long-distance comfort and cargo capacity."
+    "description_en": "Built for long-distance comfort and cargo capacity.",
+    "description_pl": "Zaprojektowany do długodystansowej jazdy i pojemności ładunkowej."
   },
   {
     "id": 11,
     "name": "BMX Freestyle",
-    "type": "BMX Bike",
+    "type_en": "BMX Bike",
+    "type_pl": "Rower BMX",
     "price": 549,
     "image": "/images/bmx-freestyle.jpg",
-    "description": "Perfect for tricks and stunts in the skate park."
+    "description_en": "Perfect for tricks and stunts in the skate park.",
+    "description_pl": "Idealny do trików i akrobacji w skate parku."
   }
 ]

@@ -3,10 +3,12 @@ import React, { createContext, useState, useContext, ReactNode } from 'react'
 interface Bike {
     id: number;
     name: string;
-    type: string;
+    type_en: string;
+    type_pl: string;
     price: number;
     image: string;
-    description: string;
+    description_en: string;
+    description_pl: string;
 }
 
 interface CartItem extends Bike {

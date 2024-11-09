@@ -5,7 +5,7 @@ import bikes from '../../config/bikesConfig.json'
 
 const BikeList: React.FC = () => {
     const { addToCart } = useCart()
-    const { t } = useTranslation()
+    const { i18n } = useTranslation()
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
@@ -21,8 +21,12 @@ const BikeList: React.FC = () => {
                     <div className="p-4 md:p-6 flex-grow flex flex-col justify-between">
                         <div>
                             <h2 className="text-lg md:text-xl font-semibold mb-2 text-primary">{bike.name}</h2>
-                            <p className="text-sm text-gray-600 mb-2">{bike.type}</p>
-                            <p className="text-sm md:text-base text-gray-700 mb-4">{bike.description}</p>
+                            <p className="text-sm text-gray-600 mb-2">
+                                {i18n.language === 'pl' ? bike.type_pl : bike.type_en}
+                            </p>
+                            <p className="text-sm md:text-base text-gray-700 mb-4">
+                                {i18n.language === 'pl' ? bike.description_pl : bike.description_en}
+                            </p>
                         </div>
                         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
                             <span className="text-lg font-bold text-secondary">${bike.price}</span>
@@ -30,7 +34,7 @@ const BikeList: React.FC = () => {
                                 className="w-full sm:w-auto bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-primary-600 transition-colors"
                                 onClick={() => addToCart(bike)}
                             >
-                                {t('addToCart')}
+                                {i18n.language === 'pl' ? 'Dodaj do koszyka' : 'Add to Cart'}
                             </button>
                         </div>
                     </div>
