@@ -3,8 +3,11 @@ import Navbar from './components/Navbar'
 import BikeList from './components/BikeList'
 import About from './components/About'
 import { CartProvider } from './context/CartContext'
+import { useTranslation } from "react-i18next";
 
 function App() {
+    const { t } = useTranslation()
+
     return (
         <CartProvider>
             <Router>
@@ -14,7 +17,7 @@ function App() {
                         <Routes>
                             <Route path="/" element={
                                 <>
-                                    <h1 className="text-3xl font-bold mb-6 text-center">Welcome to Our Bike Shop</h1>
+                                    <h1 className="text-3xl font-bold mb-6 text-center">{t('welcomeToOurBikeShop')}</h1>
                                     <BikeList />
                                 </>
                             } />

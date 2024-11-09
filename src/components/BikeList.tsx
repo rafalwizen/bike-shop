@@ -1,5 +1,6 @@
 import React from 'react'
 import { useCart } from '../context/CartContext'
+import { useTranslation } from 'react-i18next'
 
 interface Bike {
     id: number;
@@ -47,6 +48,7 @@ const bikes: Bike[] = [
 
 const BikeList: React.FC = () => {
     const { addToCart } = useCart()
+    const { t } = useTranslation()
 
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -65,7 +67,7 @@ const BikeList: React.FC = () => {
                                 className="bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-primary-600 transition-colors"
                                 onClick={() => addToCart(bike)}
                             >
-                                Add to Cart
+                                {t('addToCart')}
                             </button>
                         </div>
                     </div>
