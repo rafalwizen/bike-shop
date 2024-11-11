@@ -5,17 +5,20 @@ import bikes from '../../config/bikesConfig.json'
 
 const BikeList: React.FC = () => {
     const { addToCart } = useCart()
-    const { i18n } = useTranslation()
+    const { i18n, t } = useTranslation()
 
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
             {bikes.map((bike) => (
-                <div key={bike.id} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-                    <div className="relative pt-[100%]">
+                <div
+                    key={bike.id}
+                    className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                >
+                    <div className="relative pt-[100%] overflow-hidden">
                         <img
                             src={bike.image}
                             alt={bike.name}
-                            className="absolute top-0 left-0 w-full h-full object-cover"
+                            className="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
                         />
                     </div>
                     <div className="p-4 md:p-6 flex-grow flex flex-col justify-between">
@@ -34,7 +37,7 @@ const BikeList: React.FC = () => {
                                 className="w-full sm:w-auto bg-primary text-primary-foreground px-4 py-2 rounded hover:bg-primary-600 transition-colors"
                                 onClick={() => addToCart(bike)}
                             >
-                                {i18n.language === 'pl' ? 'Dodaj do koszyka' : 'Add to Cart'}
+                                {t('addToCart')}
                             </button>
                         </div>
                     </div>
