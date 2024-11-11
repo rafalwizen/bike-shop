@@ -22,7 +22,19 @@ export const resources = {
             "proudToCallTarnowskieGory": "We're proud to call Tarnowskie Góry our home. Located in southern Poland, our town is known for its rich mining history and beautiful landscapes. The surrounding areas offer a variety of terrains perfect for cycling enthusiasts, from urban paths to challenging mountain trails.",
             "ourLocation": "Our location",
             "ourBikeShopHeadquarters": "Our Bike Shop Headquarters",
-            "ourBikeShopHeadquartersInTarnowskieGory": "Our Bike Shop Headquarters in Tarnowskie Góry"
+            "ourBikeShopHeadquartersInTarnowskieGory": "Our Bike Shop Headquarters in Tarnowskie Góry",
+            "contactUs": "Contact Us",
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "enterYourName": "Enter your name",
+            "enterYourEmail": "Enter your email",
+            "enterYourMessage": "Enter your message",
+            "submit": "Submit",
+            "formSubmissionSuccess": "Thank you for your message. We'll get back to you soon!",
+            "nameRequired": "Name must be at least 2 characters.",
+            "emailInvalid": "Please enter a valid email address.",
+            "messageRequired": "Message must be at least 10 characters."
         }
     },
     pl: {
@@ -48,7 +60,19 @@ export const resources = {
             "proudToCallTarnowskieGory": "Jesteśmy dumni, że Tarnowskie Góry są naszym domem. Położone w południowej Polsce, nasze miasto słynie z bogatej historii górniczej i pięknych krajobrazów. Okoliczne tereny oferują różnorodność tras idealnych dla entuzjastów kolarstwa, od ścieżek miejskich po wymagające szlaki górskie.",
             "ourLocation": "Nasza lokalizacja",
             "ourBikeShopHeadquarters": "Siedziba naszego sklepu rowerowego",
-            "ourBikeShopHeadquartersInTarnowskieGory": "Siedziba naszego sklepu rowerowego w Tarnowskich Górach"
+            "ourBikeShopHeadquartersInTarnowskieGory": "Siedziba naszego sklepu rowerowego w Tarnowskich Górach",
+            "contactUs": "Skontaktuj się z nami",
+            "name": "Imię",
+            "email": "Email",
+            "message": "Wiadomość",
+            "enterYourName": "Wpisz swoje imię",
+            "enterYourEmail": "Wpisz swój email",
+            "enterYourMessage": "Wpisz swoją wiadomość",
+            "submit": "Wyślij",
+            "formSubmissionSuccess": "Dziękujemy za Twoją wiadomość. Odezwiemy się wkrótce!",
+            "nameRequired": "Imię musi mieć co najmniej 2 znaki.",
+            "emailInvalid": "Proszę podać prawidłowy adres email.",
+            "messageRequired": "Wiadomość musi mieć co najmniej 10 znaków."
         }
     }
 };

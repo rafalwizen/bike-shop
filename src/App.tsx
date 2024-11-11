@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import BikeList from './components/BikeList'
 import About from './components/About'
+import ContactForm from './components/ContactForm'
 import { CartProvider } from './context/CartContext'
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next"
 
 function App() {
     const { t } = useTranslation()
@@ -23,6 +24,7 @@ function App() {
                             } />
                             <Route path="/bikes" element={<BikeList />} />
                             <Route path="/about" element={<About />} />
+                            <Route path="/contact" element={<ContactForm />} />
                         </Routes>
                     </main>
                 </div>
