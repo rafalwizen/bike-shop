@@ -6,7 +6,7 @@ interface Bike {
     type_en: string;
     type_pl: string;
     price: number;
-    image: string;
+    images: string[];
     description_en: string;
     description_pl: string;
 }

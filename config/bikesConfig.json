@@ -5,9 +5,20 @@
     "type_en": "Mountain Bike",
     "type_pl": "Rower Górski",
     "price": 799,
-    "image": "/images/mountain-bike.jpg",
+    "images": [
+      "/images/mountain-bike.jpg",
+      "/images/mountain-bike-2.jpg",
+      "/images/mountain-bike-3.jpg"
+    ],
     "description_en": "Perfect for rough terrains and adventurous trails.",
-    "description_pl": "Idealny do trudnych terenów i przygodowych szlaków."
+    "description_pl": "Idealny do trudnych terenów i przygodowych szlaków.",
+    "specs": {
+      "frame": "Aluminum",
+      "suspension": "Front suspension fork",
+      "gears": "21-speed Shimano",
+      "brakes": "Hydraulic disc brakes",
+      "tires": "29-inch all-terrain"
+    }
   },
   {
     "id": 2,
@@ -15,9 +26,20 @@
     "type_en": "Road Bike",
     "type_pl": "Rower Szosowy",
     "price": 1299,
-    "image": "/images/road-bike.jpg",
+    "images": [
+      "/images/road-bike.jpg",
+      "/images/road-bike-2.jpg",
+      "/images/road-bike-3.jpg"
+    ],
     "description_en": "Sleek and fast, ideal for long distance rides on paved roads.",
-    "description_pl": "Smukły i szybki, idealny do długich przejażdżek po utwardzonych drogach."
+    "description_pl": "Smukły i szybki, idealny do długich przejażdżek po utwardzonych drogach.",
+    "specs": {
+      "frame": "Carbon fiber",
+      "fork": "Carbon fiber",
+      "gears": "22-speed Shimano 105",
+      "brakes": "Rim brakes",
+      "tires": "700c road tires"
+    }
   },
   {
     "id": 3,
@@ -25,9 +47,20 @@
     "type_en": "City Bike",
     "type_pl": "Rower Miejski",
     "price": 599,
-    "image": "/images/city-bike.jpg",
+    "images": [
+      "/images/city-bike.jpg",
+      "/images/city-bike-2.jpg",
+      "/images/city-bike-3.jpg"
+    ],
     "description_en": "Comfortable and stylish for your daily urban commute.",
-    "description_pl": "Wygodny i stylowy na codzienne dojazdy po mieście."
+    "description_pl": "Wygodny i stylowy na codzienne dojazdy po mieście.",
+    "specs": {
+      "frame": "Steel",
+      "handlebars": "Upright",
+      "gears": "7-speed",
+      "brakes": "V-brakes",
+      "tires": "26-inch city tires"
+    }
   },
   {
     "id": 4,
@@ -35,9 +68,20 @@
     "type_en": "Electric Bike",
     "type_pl": "Rower Elektryczny",
     "price": 1999,
-    "image": "/images/electric-bike.jpg",
+    "images": [
+      "/images/electric-bike.jpg",
+      "/images/electric-bike-2.jpg",
+      "/images/electric-bike-3.jpg"
+    ],
     "description_en": "Powerful electric assistance for effortless riding.",
-    "description_pl": "Mocna pomoc elektryczna dla łatwiejszej jazdy."
+    "description_pl": "Mocna pomoc elektryczna dla łatwiejszej jazdy.",
+    "specs": {
+      "frame": "Aluminum",
+      "motor": "250W rear hub",
+      "battery": "36V 10Ah",
+      "range": "Up to 50 km",
+      "brakes": "Disc brakes"
+    }
   },
   {
     "id": 5,
@@ -45,9 +89,20 @@
     "type_en": "Mountain Bike",
     "type_pl": "Rower Górski",
     "price": 899,
-    "image": "/images/trail-blazer.jpg",
+    "images": [
+      "/images/trail-blazer.jpg",
+      "/images/trail-blazer-2.jpg",
+      "/images/trail-blazer-3.jpg"
+    ],
     "description_en": "Conquer any trail with this robust and agile mountain bike.",
-    "description_pl": "Pokonaj każdy szlak z tym solidnym i zwinnym rowerem górskim."
+    "description_pl": "Pokonaj każdy szlak z tym solidnym i zwinnym rowerem górskim.",
+    "specs": {
+      "frame": "Aluminum",
+      "suspension": "Full suspension",
+      "gears": "24-speed",
+      "brakes": "Hydraulic disc brakes",
+      "tires": "27.5-inch all-terrain"
+    }
   },
   {
     "id": 6,
@@ -55,9 +110,20 @@
     "type_en": "Electric Bike",
     "type_pl": "Rower Elektryczny",
     "price": 1799,
-    "image": "/images/eco-rider.jpg",
+    "images": [
+      "/images/eco-rider.jpg",
+      "/images/eco-rider-2.jpg",
+      "/images/eco-rider-3.jpg"
+    ],
     "description_en": "Environmentally friendly with powerful electric support.",
-    "description_pl": "Ekologiczny z mocnym wsparciem elektrycznym."
+    "description_pl": "Ekologiczny z mocnym wsparciem elektrycznym.",
+    "specs": {
+      "frame": "Steel",
+      "motor": "250W front hub",
+      "battery": "48V 12Ah",
+      "range": "Up to 60 km",
+      "brakes": "Disc brakes"
+    }
   },
   {
     "id": 7,
@@ -65,9 +131,20 @@
     "type_en": "Mountain Bike",
     "type_pl": "Rower Górski",
     "price": 1299,
-    "image": "/images/downhill-dominator.jpg",
+    "images": [
+      "/images/downhill-dominator.jpg",
+      "/images/downhill-dominator-2.jpg",
+      "/images/downhill-dominator-3.jpg"
+    ],
     "description_en": "Designed for extreme downhill performance and control.",
-    "description_pl": "Zaprojektowany do ekstremalnej jazdy w dół i pełnej kontroli."
+    "description_pl": "Zaprojektowany do ekstremalnej jazdy w dół i pełnej kontroli.",
+    "specs": {
+      "frame": "Carbon fiber",
+      "suspension": "Dual suspension",
+      "gears": "9-speed",
+      "brakes": "Hydraulic disc brakes",
+      "tires": "27.5-inch downhill tires"
+    }
   },
   {
     "id": 8,
@@ -75,9 +152,20 @@
     "type_en": "Folding Bike",
     "type_pl": "Rower Składany",
     "price": 799,
-    "image": "/images/folding-commuter.jpg",
+    "images": [
+      "/images/folding-commuter.jpg",
+      "/images/folding-commuter-2.jpg",
+      "/images/folding-commuter-3.jpg"
+    ],
     "description_en": "Compact and convenient for mixed-mode commuting.",
-    "description_pl": "Kompaktowy i wygodny do mieszanych dojazdów."
+    "description_pl": "Kompaktowy i wygodny do mieszanych dojazdów.",
+    "specs": {
+      "frame": "Aluminum",
+      "folding": "Quick-release",
+      "gears": "6-speed",
+      "brakes": "V-brakes",
+      "tires": "20-inch"
+    }
   },
   {
     "id": 9,
@@ -85,9 +173,20 @@
     "type_en": "Gravel Bike",
     "type_pl": "Rower Gravelowy",
     "price": 1099,
-    "image": "/images/gravel-grinder.jpg",
+    "images": [
+      "/images/gravel-grinder.jpg",
+      "/images/gravel-grinder-2.jpg",
+      "/images/gravel-grinder-3.jpg"
+    ],
     "description_en": "Versatile bike for both road and light off-road adventures.",
-    "description_pl": "Wszechstronny rower do jazdy po drogach i lekkich szlakach."
+    "description_pl": "Wszechstronny rower do jazdy po drogach i lekkich szlakach.",
+    "specs": {
+      "frame": "Aluminum",
+      "gears": "16-speed",
+      "brakes": "Mechanical disc brakes",
+      "tires": "700x40c gravel tires",
+      "handlebars": "Drop bars"
+    }
   },
   {
     "id": 10,
@@ -95,9 +194,20 @@
     "type_en": "Touring Bike",
     "type_pl": "Rower Turystyczny",
     "price": 1399,
-    "image": "/images/touring-elite.jpg",
+    "images": [
+      "/images/touring-elite.jpg",
+      "/images/touring-elite-2.jpg",
+      "/images/touring-elite-3.jpg"
+    ],
     "description_en": "Built for long-distance comfort and cargo capacity.",
-    "description_pl": "Zaprojektowany do długodystansowej jazdy i pojemności ładunkowej."
+    "description_pl": "Zaprojektowany do długodystansowej jazdy i pojemności ładunkowej.",
+    "specs": {
+      "frame": "Steel",
+      "gears": "27-speed",
+      "brakes": "V-brakes",
+      "racks": "Front and rear",
+      "tires": "28-inch touring tires"
+    }
   },
   {
     "id": 11,
@@ -105,8 +215,18 @@
     "type_en": "BMX Bike",
     "type_pl": "Rower BMX",
     "price": 549,
-    "image": "/images/bmx-freestyle.jpg",
+    "images": [
+      "/images/bmx-freestyle.jpg",
+      "/images/bmx-freestyle-2.jpg",
+      "/images/bmx-freestyle-3.jpg"
+    ],
     "description_en": "Perfect for tricks and stunts in the skate park.",
-    "description_pl": "Idealny do trików i akrobacji w skate parku."
+    "description_pl": "Idealny do trików i akrobacji w skate parku.",
+    "specs": {
+      "frame": "Chromoly",
+      "gears": "Single-speed",
+      "brakes": "U-brakes",
+      "tires": "20-inch BMX tires"
+    }
   }
 ]
